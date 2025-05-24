@@ -1,19 +1,29 @@
 {
-  "name": "nodejs-basics1",
+  "name": "nodejs-basics",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "nodejs-basics",
+  "type": "module",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/**/*.js",
+    "start": "node ./src/index.js",
     "dev": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "@eslint/js": "^9.27.0",
     "eslint": "^9.27.0",
-    "globals": "^16.1.0",
+    "globals": "^15.15.0",
     "nodemon": "^3.1.10"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/addd1ct/nodejs-hw-01.git"
+  },
+  "bugs": {
+    "url": "https://github.com/addd1ct/nodejs-hw-01/issues"
+  },
+  "homepage": "https://github.com/addd1ct/nodejs-hw-01#readme"
 }
