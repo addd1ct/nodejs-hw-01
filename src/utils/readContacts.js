@@ -1,5 +1,5 @@
 import fs from "fs/promises";
-import { PATH_DB } from "../constants/contacts";
+import { PATH_DB } from "../constants/contacts.js";
 
 export const readContacts = async () => {
   const content = await fs.readFile(PATH_DB, "utf-8");
